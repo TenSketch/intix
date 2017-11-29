@@ -1,0 +1,751 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Intix.in_Events_and_Adventures</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<style type="text/css">
+/* style for social icons*/
+            .fa {
+                padding: 5px;
+                font-size: 20px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+            .fa:hover {
+                opacity: 0.7;
+            }
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+            .fa-google {
+                background: #dd4b39;
+                color: white;
+            }
+
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+
+            .fa-youtube {
+                background: #bb0000;
+                color: white;
+            }       
+
+            .fa-instagram {
+                background: #125688;
+                color: white;
+            }
+
+             /* navbar style*/
+
+  .navbar-white {
+    background-color:#fff;
+    border-radius:0;
+    box-shadow: 0px 3px 10px #666;
+
+}
+.navbar-nav > li >a{
+  color:#E64A19;
+}
+.navbar-nav > li >a:hover{
+  background:#FF5722;
+  color:#fff;
+}
+body{
+  background: #fff;
+
+
+}
+.image-link:hover {
+  background: #FFCCBC;
+
+opacity:0.2;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* horizontal line style*/
+            hr{
+                display: block;
+                margin-top: 1em;
+                margin-bottom: 0.5em;
+                margin-left: auto;
+                margin-right: auto;
+                border-style: inset;
+                border-width: 1px;
+                border-color: #FF5722;
+            }
+            
+            /*footer style*/
+            .social{
+                padding-left: 0;
+                margin-bottom: 2em;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+                -webkit-justify-content: flex-end;
+            }
+            .copyright{
+                margin-left: 2em;
+                font-size: 16px;
+                
+            }
+
+
+
+            /* style for testimonials starts*/
+            #quote-carousel {
+                padding: 0 10px 30px 10px;
+                margin-top: 60px;
+            }
+            #quote-carousel .carousel-control {
+                background: none;
+                color: #CACACA;
+                font-size: 2.3em;
+                text-shadow: none;
+                margin-top: 30px;
+            }
+            #quote-carousel .carousel-indicators {
+                position: relative;
+                right: 50%;
+                top: auto;
+                bottom: 0px;
+                margin-top: 20px;
+                margin-right: -19px;
+            }
+            #quote-carousel .carousel-indicators li {
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                border: 1px solid #ccc;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+                border-radius: 50%;
+                opacity: 0.4;
+                overflow: hidden;
+                transition: all .4s ease-in;
+                vertical-align: middle;
+            }
+            #quote-carousel .carousel-indicators .active {
+                width: 128px;
+                height: 128px;
+                opacity: 1;
+                transition: all .2s;
+            }   
+            .item blockquote {
+                border-left: none;
+                margin: 0;
+            }
+            .item blockquote p:before {
+                content: "\f10d";
+                font-family: 'Fontawesome';
+                float: left;
+                margin-right: 10px;
+            }
+            /* style for testimonials ends*/
+            
+
+
+/*drop Down */
+
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+
+.slate   { background-color: #ddd; }
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.location{
+
+  padding: 0px !important;
+  margin: 0px !important;
+ 
+
+
+
+}
+
+.modal-backdrop{
+opacity: 0.9;
+
+}
+header{
+position:absolute;
+
+}
+
+
+
+
+
+</style>
+
+  </head>
+  <body>
+<div class="modal-backdrop">
+  <header>
+   <nav class="navbar navbar-white navbar-fixed-top">
+  <div class="container-fluid container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img alt="Brand" src="images/logo.png" style="width:150px;margin-top: -24px;"></a>
+    </div>
+
+    <!--
+<form class="navbar-form navbar-right" role="search">
+  <div class="form-group styled-select slate blue semi-square">
+    <select class="form-control" id="sel1"  data-style="btn-new">
+    <option>Mumbai</option>
+    <option>Chennai</option>
+    <option>Banglore</option>
+    <option>Delhi</option>
+  </select>
+  </div>
+</form>-->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="fa fa-map-marker location"></span> Mumbai</a>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">Mumbai</a></li>
+          <li><a href="index.html">Chennai</a></li>
+          <li><a href="index.html">Bengaluru</a></li>
+          <li><a href="index.html">Kolkatta</a></li>
+        </ul>
+      </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 style="color:orange;" class="text-center">Choose Location</h1>
+
+
+</div>
+<br><br>
+<section id="slider-banner">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://lorempixel.com/output/nightlife-q-c-1280-350-1.jpg"  class="img-fluid"  alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://lorempixel.com/output/nightlife-q-c-1280-350-2.jpg"  class="img-fluid"  alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+ <div class="item">
+      <img src="https://lorempixel.com/output/nightlife-q-c-1280-350-4.jpg"  class="img-fluid"  alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://lorempixel.com/output/nightlife-q-c-1280-350-6.jpg"  class="img-fluid"  alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
+     
+  
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</section>
+
+
+
+<div class="container" style="position: relative; top: 0px; padding-top: 10px;">  
+      
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active" >
+                <a href="#menu1" aria-controls="menu1" role="tab" data-toggle="tab">Featured Events</a>
+            </li>
+            <li role="presentation">
+                <a href="#menu2" aria-controls="menu2" role="tab" data-toggle="tab">Featured Adventure</a>
+            </li>
+           
+        </ul>
+       
+<div class="tab-content">
+
+  <div id="menu1" class="tab-pane fade in active">
+  
+   <div class="row">
+  <div class="col-sm-12 col-md-3 col-lg-3">
+  <a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150634956559c911fd8d3dc6.29103995.jpg" class="img-fluid"  width="100%" height="200"></a>
+
+  </div>
+<div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150634957859c9120af21c25.83404189.jpg" class="img-fluid"   width="100%" height="200"></a></div>
+<div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150765858459dd0b58b6f648.64230137.jpg" class="img-fluid"   width="100%" height="200"></a></div>
+<div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150765864859dd0b98ec8d51.17105212.jpg" class="img-fluid"   width="100%" height="200"></a></div>
+
+</div>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+   <div class="row">
+  <div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150634956559c911fd8d3dc6.29103995.jpg" class="img-fluid"  width="100%" height="200"></a></div>
+<div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150634957859c9120af21c25.83404189.jpg" class="img-fluid"   width="100%" height="200"></a></div>
+<div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150765858459dd0b58b6f648.64230137.jpg" class="img-fluid"   width="100%" height="200"></a></div>
+<div class="col-sm-12 col-md-3 col-lg-3"><a href="index.php?r=adventure/adventurebuynow&id=16"><img src="http://admin.intix.in/uploads/Sponsored/150765864859dd0b98ec8d51.17105212.jpg" class="img-fluid"   width="100%" height="200"></a></div>
+
+</div>
+  </div>
+</div>
+</div>
+<!-- Catagory-->
+
+ <div class="container" style="position: relative; top: 10px; padding-top: 40px;">  
+            <hr>
+        <ul class="nav nav-pills" role="tablist" text-align="center">
+            <li role="presentation" class="active" >
+                <a href="#allc" aria-controls="allc" role="tab" data-toggle="tab">All categories</a>
+            </li>
+            <li role="presentation">
+                <a href="#events" aria-controls="events" role="tab" data-toggle="tab">All Events</a>
+            </li>
+            <li role="presentation">
+                <a href="#adventure" aria-controls="adventure" role="tab" data-toggle="tab"> All Adventures</a>
+            </li>
+        </ul>
+        </div>
+        <div class="container">
+            <div class="tab-content" style="position: relative; left: 50px;">
+                <ul role="tabpanel" class="tab-pane" id="events"> 
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/music%20and%20dance.png" alt="Music & Dance">
+                            </figure>
+                            <span class="event-name">Music & Dance</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/music%20and%20dance.png" alt="Music & Dance">
+                            </figure>
+                            <span class="event-name">Music & Dance</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/concert.png" alt="Concert">
+                            </figure>
+                            <span class="event-name">Concert</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/health.png" alt="Health & Wellness">
+                            </figure>
+                            <span class="event-name">Health & Wellness</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/exibition.png" alt="Exhibition">
+                            </figure>
+                            <span class="event-name">Exhibition</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/meetup.png" alt="Meetups">
+                            </figure>
+                            <span class="event-name">Meetups</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/volunteer.png" alt="Volunteer">
+                            </figure>
+                            <span class="event-name">Volunteer</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul role="tabpanel" class="tab-pane" id="adventure">
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/tour.png" alt="Tour">
+                            </figure>
+                            <span class="event-name">Tour</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/sport.png" alt="sports">
+                            </figure>
+                            <span class="event-name">sports</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/camp.png" alt="camp">
+                            </figure>
+                            <span class="event-name">Camping</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul role="tabpanel" class="tab-pane active" id="allc">
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/music%20and%20dance.png" alt="Music & Dance">
+                            </figure>
+                            <span class="event-name">Music & Dance</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/camp.png" alt="camp">
+                            </figure>
+                            <span class="event-name">Camping</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/health.png" alt="Health & Wellness">
+                            </figure>
+                            <span class="event-name">Health & Wellness</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/exibition.png" alt="Exhibition">
+                            </figure>
+                            <span class="event-name">Exhibition</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/meetup.png" alt="Meetups">
+                            </figure>
+                            <span class="event-name">Meetups</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/volunteer.png" alt="Volunteer">
+                            </figure>
+                            <span class="event-name">Volunteer</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/tour.png" alt="Tour">
+                            </figure>
+                            <span class="event-name">Tour</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/sport.png" alt="sports">
+                            </figure>
+                            <span class="event-name">sports</span>
+                        </a>
+                    </li>
+                    <li class="category-list-item">
+                        <a href="#" class="tile-link">
+                            <figure class="tile-img"> 
+                                <img class="fea-icons" src="images/camp.png" alt="camp">
+                            </figure>
+                            <span class="event-name">Camping</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+<!-- Catagory Ends-->
+
+
+
+
+
+
+
+
+
+<!--testimonials starts-->
+        <div class="container">
+            <div class="row">
+             <div class="col-md-12">
+               <h1 class="text-center">Testimonial</h1>
+
+             </div>
+                <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner text-center">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                        </li>
+                    </ol>
+
+                    <!-- Carousel Buttons Next/Prev -->
+                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--testimonials ends-->
+        
+<!-- Our Clients-->
+
+
+<div class="container">
+
+ <div class="row">
+        
+                         <div class="col-md-12">
+               <h1 class="text-center">Our Clients</h1>
+
+             </div>
+             <div class="col-md-1"></div>
+                          <div class="col-md-2"> <img src="images/1.png" class="img-responsive clients-img" media-simple="true"></div>
+                          <div class="col-md-2">  <img src="images/2.png" class="img-responsive clients-img" media-simple="true"></div>
+                          <div class="col-md-2"><img src="images/3.png" class="img-responsive clients-img" media-simple="true"></div>
+                          <div class="col-md-2"> <img src="images/4.png" class="img-responsive clients-img" media-simple="true"></div>
+                          <div class="col-md-2">
+                                <img src="images/5.png" class="img-responsive clients-img" media-simple="true"></div>
+                                <div class="col-md-1"></div>
+
+                               
+                           
+                      
+                              
+                           
+                                
+                           
+                               
+                           
+                            </div>
+
+
+<!-- Our Clients -->
+    
+    <footer>
+            <div class="container">
+                <hr>
+                <div class="row" style="padding-top: 20px;">
+                <div class="col-sm-12 col-md-3">
+                    <a class="navbar-brand" href="index.html"><img alt="Brand" src="images/logo.png" style="width:150px;" class="img-fluid"></a>
+                    <br>
+                </div>    
+                    <div class="col-sm-12 col-md-3">
+                        <h4>Links</h4>
+                            <a class="linkfooter" href="privacy.html" target="_blank">Privacy</a><br>
+                            <a class="linkfooter" href="terms_&_conditions.html" target="_blank">Terms and Conditions</a><br>
+                            <a class="linkfooter" href="privacy.html" target="_blank">Contact Us</a><br>
+                    </div>    
+                    <div class="col-sm-12 col-md-3">
+                        <h4>Address</h4>
+                        <p>61, Sarvoday nagar, Jamalpore,<br>Navsari - 396445 , <br>Gujarat.</p>
+                        
+                    </div>    
+                    <div class="col-sm-12 col-md-3" >
+                        <h4>Contacts</h4>
+                        <p><b>Email:</b>&nbsp;inquiry@intix.in<br><b>Phone:</b>&nbsp;+91 9787118678</p>
+                    </div>    
+                </div>
+                <br><br><br><br>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="copyright">
+                            <p> © Copyright 2017, M9T Ventures PVT. LTD. - All Rights Reserved <span style="color: #FF5722">|</span> Designed by <a href="www.tensketch.com">TenSketch</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="social">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            
+                        </div>
+                    </div>
+                                     
+                    
+                </div>
+                
+                    
+            
+            </div>
+        </footer>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
