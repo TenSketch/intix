@@ -9,310 +9,17 @@
         <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!--stylesheet for our partners-->
         <link rel="stylesheet" href="css/infinite-slider.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
         <!-- HTML5 Shim andd Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-        <style>
-                      /*style for about us timeline*/
-            .timeline {
-                list-style: none;
-                padding: 20px 0 20px;
-                position: relative;
-            }
 
-            .timeline:before {
-                top: 0;
-                bottom: 0;
-                position: absolute;
-                content: " ";
-                width: 3px;
-                background-color: #eeeeee;
-                left: 50%;
-                margin-left: -1.5px;
-            }
-
-            .timeline > li {
-                margin-bottom: 20px;
-                position: relative;
-            }
-
-            .timeline > li:before,.timeline > li:after {
-                content: " ";
-                display: table;
-            }
-
-            .timeline > li:after {
-                clear: both;
-            }
-            
-            .timeline > li:before,.timeline > li:after {
-                content: " ";
-                display: table;
-            }
-
-            .timeline > li:after {
-                clear: both;
-            }
-
-            .timeline > li > .timeline-panel {
-                width: 46%;
-                float: left;
-                border: 1px solid #d4d4d4;
-                border-radius: 2px;
-                padding: 20px;
-                position: relative;
-                -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-                box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-            }
-
-            .timeline > li > .timeline-panel:before {
-                position: absolute;
-                top: 26px;
-                right: -15px;
-                display: inline-block;
-                border-top: 15px solid transparent;
-                border-left: 15px solid #ccc;
-                border-right: 0 solid #ccc;
-                border-bottom: 15px solid transparent;
-                content: " ";
-            }   
-
-            .timeline > li > .timeline-panel:after {
-                position: absolute;
-                top: 27px;
-                right: -14px;
-                display: inline-block;
-                border-top: 14px solid transparent;
-                border-left: 14px solid #fff;
-                border-right: 0 solid #fff;
-                border-bottom: 14px solid transparent;
-                content: " ";
-            }
-
-            .timeline > li > .timeline-badge {
-                color: #fff;
-                width: 50px;      
-                height: 50px;
-                line-height: 50px;
-                font-size: 1.4em;
-                text-align: center;
-                position: absolute;
-                top: 16px;
-                left: 50%;
-                margin-left: -25px;
-                background-color: #999999;
-                z-index: 100;
-                border-top-right-radius: 50%;
-                border-top-left-radius: 50%;
-                border-bottom-right-radius: 50%;
-                border-bottom-left-radius: 50%;
-            }
-
-            .timeline > li.timeline-inverted > .timeline-panel {
-                float: right;
-            }
-
-            .timeline > li.timeline-inverted > .timeline-panel:before {
-                border-left-width: 0;
-                border-right-width: 15px;
-                left: -15px;
-                right: auto;
-            }
-
-            .timeline > li.timeline-inverted > .timeline-panel:after {
-                border-left-width: 0;
-                border-right-width: 14px;
-                left: -14px;
-                right: auto;
-            }
-
-            .timeline-badge.primary {
-                background-color: #2e6da4 !important;
-            }
-
-            .timeline-badge.success {
-                background-color: #3f903f !important;
-            }
-
-            .timeline-badge.warning {
-                background-color: #f0ad4e !important;
-            }       
-
-.timeline-badge.danger {
-    background-color: #d9534f !important;
-}
-
-.timeline-badge.info {
-    background-color: #5bc0de !important;
-}
-
-.timeline-title {
-    margin-top: 0;
-    color: inherit;
-}
-
-.timeline-body > p,
-.timeline-body > ul {
-    margin-bottom: 0;
-}
-
-.timeline-body > p + p {
-  margin-top: 5px;
-}
-
-@media (max-width: 767px) {
-  ul.timeline:before {
-    left: 40px;
-  }
-  
-  ul.timeline > li > .timeline-panel {
-    width: calc(100% - 90px);
-    width: -moz-calc(100% - 90px);
-    width: -webkit-calc(100% - 90px);
-  }
-  
-  ul.timeline > li > .timeline-badge {
-    left: 15px;
-    margin-left: 0;
-    top: 16px;
-  }
-  
-  ul.timeline > li > .timeline-panel {
-    float: right;
-  }
-  
-  ul.timeline > li > .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
-  }
-  
-  ul.timeline > li > .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto;
-  }
-}
-            
-            blockquote {  
-                width: 70%;
-                border-color: #ef420d;
-                margin-left: 180px;
-            }
-            /*style for meeet the teams starts*/
-            @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-
-.team{
-    padding:15px;
-    text-align: center;
-}
-h6.description{
-	font-weight: bold;
-	letter-spacing: 2px;
-	color: #999;
-	border-bottom: 1px solid rgba(0, 0, 0,0.1);
-	padding-bottom: 5px;
-}
-.profile{
-	margin-top: 25px;
-}
-.profile h1{
-	font-weight: normal;
-	font-size: 20px;
-	margin:10px 0 0 0;
-}
-.profile h2{
-	font-size: 14px;
-	font-weight: lighter;
-	margin-top: 5px;
-}
-.profile .img-box{
-	opacity: 1;
-	display: block;
-	position: relative;
-}
-.profile .img-box:after{
-	content:"";
-	opacity: 0;
-	background-color: #EE5A2A;
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 0;
-	bottom: 0;
-    
-}
-.img-box ul{
-	position: absolute;
-	z-index: 2;
-	bottom: 50px;
-	text-align: center;
-	width: 100%;
-	padding-left: 0px;
-	height: 0px;
-	margin:0px;
-	opacity: 0;
-}
-.profile .img-box:after, .img-box ul, .img-box ul li{
-	-webkit-transition: all 0.5s ease-in-out 0s;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    transition: all 0.5s ease-in-out 0s;
-    
-}
-.img-box ul li{
-	font-size: 20px;
-	letter-spacing: 10px;
-}
-.img-box ul li{
-	width: 30px;
-    height: 30px;
-    text-align: center;
-    border: none;
-    margin: 2px;
-    padding: 5px;
-	display: inline-block;
-}
-
-.img-box:hover:after{
-	opacity: 0.5;
-    
-}
-.img-box:hover ul{
-	opacity: 1;
-    
-}
-
-.img-box ul a{
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	-moz-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-    
-}
-            #imgray{
-                -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-            }
-            .img-box a{
-	color: #fff;
-                text-decoration: none;
-    
-}
-
-
-
-            /*style for meeet the teams ends*/
-            
-        </style>
                 
     </head>
     <body>
@@ -353,19 +60,19 @@ h6.description{
         <br><br><br><br>
         <div class="container">
             <div class="row">
-                <h3><center>Why spend time in movie when you can create your memories with Intix<br>Choose your favourite Event or Adventure spot, we'll make it the best memory for you!</center></h3>
+                <h3 class="hc">Why spend time in movie when you can create your memories with Intix<br>Choose your favourite Event or Adventure spot, we'll make it the best memory for you!</h3>
             </div>
             <hr>
-        <div class="container">
+           <div class="row">
             <br>
-                <blockquote style="text-align: justify; font-style: italic;">When it's your liesure timbirthday, or even a boring day, we all look out for options to break the wall of boredom. And at that point what we look for, is events and adventures around us that will help us gain back our enthusiasm. Well, your search ends here because we, at Intix.in. Help you as one stop platform for planning and organizing your time of leisure, weekend or holiday. </blockquote>
+                <blockquote>When it's your liesure timbirthday, or even a boring day, we all look out for options to break the wall of boredom. And at that point what we look for, is events and adventures around us that will help us gain back our enthusiasm. Well, your search ends here because we, at Intix.in. Help you as one stop platform for planning and organizing your time of leisure, weekend or holiday. </blockquote>
             </div>
             <hr>
     <ul class="timeline">
         <li>
           <div class="timeline-badge info"><i class="glyphicon glyphicon-hand-left"></i></div>
           <div class="timeline-panel" >
-            <div class="timeline-heading" style="text-align: right;">
+            <div class="timeline-heading">
               <h4 class="timeline-title">Idea</h4>
               
             </div>
@@ -389,7 +96,7 @@ h6.description{
           <div class="timeline-badge danger"><i class="glyphicon glyphicon-eye-open"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title" style="text-align: right;">Idea</h4>
+              <h4 class="timeline-title">Idea</h4>
               
             </div>
             <div class="timeline-body">
@@ -409,8 +116,8 @@ h6.description{
           </div>
         </li>
         </ul> 
-	</div>
-            <section class="team">
+    </div>
+         <section class="team">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
@@ -490,38 +197,49 @@ h6.description{
         <footer>
             <div class="container">
                 <hr>
-                <div class="row" style="padding-top: 20px;">
-                <div class="col-sm-12 col-md-3 col-lg-3">
-                    <a class="navbar-brand" href="index.html"><img alt="Brand" src="images/logo.png" style="width:150px;"></a>
-                </div>    
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <h4>Links</h4>
+                <br><br>
+                <div class="row" style="margin-bottom: -50px;">
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xs-12 footer-columns">
+                        <h4><b>Links</b></h4>
+                            <a class="linkfooter" href="booknow.html">Book Events</a><br>
                             <a class="linkfooter" href="privacy.html">Privacy</a><br>
                             <a class="linkfooter" href="terms_&_conditions.html">Terms and Conditions</a><br>
-                            <a class="linkfooter" href="contact_us.html">Contact Us</a><br>
+                            <a class="linkfooter" href="privacy.html">Contact Us</a><br>
                     </div>    
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                        <h4>Address</h4>
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xs-12 footer-columns">
+                        <h4><b>Address</b></h4>
                         <p>61, Sarvoday nagar, Jamalpore,<br>Navsari - 396445 , <br>Gujarat.</p>
-                        
-                    </div>    
-                    <div class="col-sm-12 col-md-3 col-lg-3" >
-                        <h4>Contacts</h4>
+                        <h4><b>Contacts</b></h4>
                         <p><b>Email:</b>&nbsp;inquiry@intix.in<br><b>Phone:</b>&nbsp;+91 9787118678</p>
-                    </div>    
+                        
+                    </div>   
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xs-12 cidea">
+                        <h4>Share some event or adventure idea which strikes your mind, We'll make it live specially for you!</h4>
+                        <p>we would like to finely customize our services by knowing more about our customer's needs. tell us your unique ideas for events or adventure. We'll get the best lifetime experience for you.!</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Idea" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary footbtn">Submit</button>
+                        </form>
+                    </div>
+                        
                 </div>
                 <br><br><br><br>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="row" id="footbottom">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xs-12">
                         <div class="copyright">
-                            <p> © Copyright 2017, M9T Ventures PVT. LTD. - All Rights Reserved <span style="color: #FF5722">|</span> Designed by <a href="www.tensketch.com">TenSketch</a></p>
+                            <p> © Copyright 2017, M9T Ventures PVT. LTD. - All Rights Reserved <br> 
+                                Designed by <a href="http://www.tensketch.com/" target="_blank">TenSketch</a>&nbsp;<span style="color: #FF5722">|</span>&nbsp;Developed by <a href="http://www.spyvebsolutions.com/" target="_blank">Spyveb Solutions</a></p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xs-12">
                         <div class="social">
                             <a href="#" target="_blank" class="fa fa-facebook"></a>
                             <a href="#" target="_blank" class="fa fa-twitter"></a>
-                            <a href="#" target="_blank" class="fa fa-google"></a>
                             <a href="#" target="_blank" class="fa fa-linkedin"></a>
                             <a href="#" target="_blank" class="fa fa-youtube"></a>
                             <a href="#" target="_blank" class="fa fa-instagram"></a>
